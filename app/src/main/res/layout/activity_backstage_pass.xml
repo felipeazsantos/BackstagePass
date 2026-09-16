@@ -73,6 +73,15 @@
 
         </LinearLayout>
 
+        <!-- Image View -->
+        
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:src="@drawable/backstage_card_image"
+            android:scaleType="centerCrop"
+            />
+
 
 
     </LinearLayout>
