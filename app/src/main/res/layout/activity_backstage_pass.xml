@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_screen"
+    android:paddingTop="56dp"
+    android:paddingBottom="48dp"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp"
+    android:gravity="top|center_horizontal"
+    >
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Backstage Pass"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:textColor="#6C3FA7"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"
+        />
+
+    <!-- Ticket Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#E8C66A"
+        >
+
+
+    </LinearLayout>
+
+</LinearLayout>
