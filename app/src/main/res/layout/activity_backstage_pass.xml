@@ -82,7 +82,18 @@
             android:scaleType="centerCrop"
             />
 
+        <!-- VIP Bar -->
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="⭐  FRONT ROW VIP  ⭐"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#6B4E00"
+            android:gravity="center"
+            android:background="#E6C45D"
+            />
 
     </LinearLayout>
 
