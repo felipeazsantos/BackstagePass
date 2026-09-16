@@ -32,6 +32,48 @@
         android:background="#E8C66A"
         >
 
+        <!-- Info panel -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#D3D3D3"
+            android:padding="16dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Joe Doe"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#3A2D46"
+                android:gravity="center"
+                android:layout_marginBottom="6dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Live Music Experience"
+                android:textSize="22sp"
+                android:textColor="#6B44B4"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Friday, April 26, 2024 | 7:00 PM"
+                android:textSize="16dp"
+                android:textColor="#4A3A58"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+
 
     </LinearLayout>
 
